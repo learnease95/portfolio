@@ -8,7 +8,7 @@ import { TbWorld } from "react-icons/tb";
 export default function Contact() {
   return (
     <div className={styles.container}>
-      <div className={styles.contact_container}>
+      <div className={` ${styles.contact_container} ${styles.slide}`}>
         <div className={styles.item}>
           <FaPhoneAlt className={styles.icon} />
           <Link className={styles.link} href={"tel:7005296485"}>
