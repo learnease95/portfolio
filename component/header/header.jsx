@@ -68,67 +68,74 @@ export default function Header() {
 
       {/* MOBILE VIEW */}
       <div className={styles.mobile_relative_position}>
+        <h4 className={styles.hi}>Manekho Ekhe</h4>
         <button className={styles.menu_button} onClick={toggleShowMenu}>
           Menu
         </button>
         {showMenu && (
-          <div className={styles.menu_container}>
-            <Link
-              className={
-                pathName == "/"
-                  ? `${styles.link} ${styles.active}`
-                  : styles.link
-              }
-              href={"/"}
+          <>
+            <div
+              className={styles.close_container}
               onClick={toggleShowMenu}
-            >
-              About
-            </Link>
-            <Link
-              className={
-                pathName == "/skill"
-                  ? `${styles.link} ${styles.active}`
-                  : styles.link
-              }
-              href={"/skill"}
-              onClick={toggleShowMenu}
-            >
-              Skill
-            </Link>
-            <Link
-              className={
-                pathName == "/project"
-                  ? `${styles.link} ${styles.active}`
-                  : styles.link
-              }
-              href={"/project"}
-              onClick={toggleShowMenu}
-            >
-              Project
-            </Link>
-            <Link
-              className={
-                pathName == "/education"
-                  ? `${styles.link} ${styles.active}`
-                  : styles.link
-              }
-              href={"/education"}
-              onClick={toggleShowMenu}
-            >
-              Education
-            </Link>
-            <Link
-              className={
-                pathName == "/contact"
-                  ? `${styles.link} ${styles.active}`
-                  : styles.link
-              }
-              href={"/contact"}
-              onClick={toggleShowMenu}
-            >
-              Contact
-            </Link>
-          </div>
+            ></div>
+            <div className={styles.menu_container}>
+              <Link
+                className={
+                  pathName == "/"
+                    ? `${styles.link} ${styles.active}`
+                    : styles.link
+                }
+                href={"/"}
+                onClick={toggleShowMenu}
+              >
+                About
+              </Link>
+              <Link
+                className={
+                  pathName == "/skill"
+                    ? `${styles.link} ${styles.active}`
+                    : styles.link
+                }
+                href={"/skill"}
+                onClick={toggleShowMenu}
+              >
+                Skill
+              </Link>
+              <Link
+                className={
+                  pathName == "/project"
+                    ? `${styles.link} ${styles.active}`
+                    : styles.link
+                }
+                href={"/project"}
+                onClick={toggleShowMenu}
+              >
+                Project
+              </Link>
+              <Link
+                className={
+                  pathName == "/education"
+                    ? `${styles.link} ${styles.active}`
+                    : styles.link
+                }
+                href={"/education"}
+                onClick={toggleShowMenu}
+              >
+                Education
+              </Link>
+              <Link
+                className={
+                  pathName == "/contact"
+                    ? `${styles.link} ${styles.active}`
+                    : styles.link
+                }
+                href={"/contact"}
+                onClick={toggleShowMenu}
+              >
+                Contact
+              </Link>
+            </div>
+          </>
         )}
       </div>
     </>
