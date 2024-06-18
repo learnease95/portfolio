@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 64px 32px;
+}
+
+.contact_container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 32px;
+  padding: 32px;
+  background-color: rgba(0, 0, 0, 0.18);
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.contact_container:hover {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.item:hover {
+  color: #fff;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--normal-text);
+  font-size: 14pt;
+  width: 100%;
+}
+
+.link:hover {
+  color: #fff;
+}
