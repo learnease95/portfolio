@@ -5,15 +5,15 @@ export default function Skill() {
   return (
     <div className={styles.container}>
       <div className={styles.skills_container}>
-        <h4 className={styles.hi}>HARD SKILLS</h4>
+        <h4 className={`${styles.hi} ${styles.slide_0}`}>HARD SKILLS</h4>
         <ul className={styles.ul}>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JAVASCRIPT</li>
-          <li>MERN STACK</li>
-          <li>NEXT JS</li>
-          <li>PHP</li>
-          <li>MYSQL</li>
+          <li className={styles.slide_1}>HTML</li>
+          <li className={styles.slide_2}>CSS</li>
+          <li className={styles.slide_3}>JAVASCRIPT</li>
+          <li className={styles.slide_4}>MERN STACK</li>
+          <li className={styles.slide_5}>NEXT JS</li>
+          <li className={styles.slide_6}>PHP</li>
+          <li className={styles.slide_7}>MYSQL</li>
         </ul>
       </div>
       <div className={styles.image_container}>
