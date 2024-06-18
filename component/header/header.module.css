@@ -1,0 +1,25 @@
+.container {
+  background-color: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 16px;
+  z-index: 1;
+  height: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--normal-text);
+  font-weight: bold;
+  transition: ease-in-out 0.2s;
+}
+
+.link:hover {
+  color: #fff;
+}
+
+.active {
+  color: var(--imp-text);
+}
