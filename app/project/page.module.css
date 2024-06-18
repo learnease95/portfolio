@@ -84,7 +84,7 @@
 }
 .silde_6 {
   animation: sildeRight 0.8s ease-out forwards;
-  animation-delay: ;
+  animation-delay: 5s;
   opacity: 0;
 }
 
