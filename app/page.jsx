@@ -22,29 +22,6 @@ export default function Home() {
           knowledge
         </p>
       </div>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
-      <p>check1</p>
     </div>
   );
 }
