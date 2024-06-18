@@ -10,6 +10,8 @@
 .hi {
   font-size: 14pt;
   color: var(--imp-text);
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .project_container {
@@ -25,10 +27,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 16px;
   border-bottom: 1px dotted rgba(255, 255, 255, 0.18);
-  padding: 8px 0;
+  padding: 32px 16px;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.18);
+  border-radius: 8px;
 }
 
 .single_project:nth-child(even) {
@@ -40,6 +43,7 @@
   text-decoration: underline;
   font-size: 12pt;
   word-spacing: 2px;
+  padding-bottom: 8px;
 }
 
 .single_project p {
@@ -80,7 +84,7 @@
 }
 .silde_6 {
   animation: sildeRight 0.8s ease-out forwards;
-  animation-delay: 5s;
+  animation-delay: ;
   opacity: 0;
 }
 
