@@ -5,7 +5,7 @@ export default function Home() {
     <div className={styles.container}>
       <div className={styles.about_me_container}>
         <h4 className={`${styles.hi} ${styles.slide_first}`}>
-          Hi! I'm Manekho Ekhe
+          Hi! Im Manekho Ekhe
           <br />
           Web Developer
         </h4>
