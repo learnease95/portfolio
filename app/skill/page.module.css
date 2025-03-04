@@ -85,6 +85,7 @@
   background-color: #fff;
   border-radius: 10%;
   padding: 8px;
+  object-fit: contain;
 }
 
 .png_container h4 {
@@ -129,6 +130,11 @@
   opacity: 0;
   animation: slideIn 0.6s ease-out forwards;
   animation-delay: 7s;
+}
+.slide_8 {
+  opacity: 0;
+  animation: slideIn 0.6s ease-out forwards;
+  animation-delay: 8s;
 }
 
 @keyframes slideIn {

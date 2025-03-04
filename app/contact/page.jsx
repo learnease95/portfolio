@@ -12,7 +12,7 @@ export default function Contact() {
         <div className={styles.item}>
           <FaPhoneAlt className={styles.icon} />
           <Link className={styles.link} href={"tel:7005296485"}>
-            &nbsp;7005296485
+            &nbsp;+91 7005296485
           </Link>
         </div>
 

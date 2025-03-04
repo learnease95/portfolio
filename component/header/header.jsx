@@ -22,7 +22,7 @@ export default function Header() {
           }
           href={"/"}
         >
-          About
+          ABOUT
         </Link>
         <Link
           className={
@@ -32,7 +32,7 @@ export default function Header() {
           }
           href={"/skill"}
         >
-          Skill
+          SKILL
         </Link>
         <Link
           className={
@@ -42,7 +42,7 @@ export default function Header() {
           }
           href={"/project"}
         >
-          Project
+          PROJECT
         </Link>
         <Link
           className={
@@ -52,7 +52,7 @@ export default function Header() {
           }
           href={"/education"}
         >
-          Education
+          EDUCATION
         </Link>
         <Link
           className={
@@ -62,7 +62,7 @@ export default function Header() {
           }
           href={"/contact"}
         >
-          Contact
+          CONTACT
         </Link>
       </div>
 

@@ -7,19 +7,19 @@ export default function Home() {
         <h4 className={`${styles.hi} ${styles.slide_first}`}>
           Hi! Im Manekho Ekhe
           <br />
-          Web Developer
+          Mobile App Developer
         </h4>
         <p className={`${styles.about_me} ${styles.slide_second}`}>
-          I am a web developer with experience in full stack development,
-          capable of working on both front end and back end projects.
+          I am a React Native developer with experience in building mobile
+          applications, focusing on performance, usability, and scalability.
         </p>
       </div>
       <div className={styles.objective_container}>
         <h4 className={`${styles.hi} ${styles.slide_third}`}>Objective</h4>
         <p className={`${styles.objective} ${styles.slide_forth}`}>
-          My objective is to work in an environment that encourages professional
-          growth and success, allowing me to effectively utilize my skills and
-          knowledge
+          My objective is to develop high-quality mobile applications while
+          continuously enhancing my skills in React Native and mobile
+          development.
         </p>
       </div>
     </div>

@@ -7,7 +7,18 @@ export default function Project() {
         <h4 className={`${styles.hi}  ${styles.silde_1}`}>Projects</h4>
       </div>
       <div className={`${styles.project_container}`}>
+        {/* SYMBIOS */}
         <div className={`${styles.single_project}  ${styles.silde_2}`}>
+          <h5>SymBios Broadband</h5>
+          <p>
+            <span className={styles.para_title}>Domain:</span> Android App
+            <br />
+            <span className={styles.para_title}>Description:</span> Customer app
+          </p>
+        </div>
+
+        {/* MEDISMART */}
+        <div className={`${styles.single_project}  ${styles.silde_3}`}>
           <h5>MEDISMART</h5>
           <p>
             <span className={styles.para_title}>Domain:</span> Android App
@@ -16,7 +27,9 @@ export default function Project() {
             Pharmacies and Medicine Availability Checker
           </p>
         </div>
-        <div className={`${styles.single_project}  ${styles.silde_3}`}>
+
+        {/* VOICE OF THE STONE */}
+        <div className={`${styles.single_project}  ${styles.silde_4}`}>
           <h5>VOICE OF THE STONE</h5>
           <p>
             <span className={styles.para_title}>Domain:</span> Android App
@@ -25,7 +38,9 @@ export default function Project() {
             gravestone using QR code
           </p>
         </div>
-        <div className={`${styles.single_project}  ${styles.silde_4}`}>
+
+        {/* SAMS */}
+        <div className={`${styles.single_project}  ${styles.silde_5}`}>
           <h5>SCHOOL ATTENDANCE MANAGEMENT SYSTEM</h5>
           <p>
             <span className={styles.para_title}>Domain:</span> Web Application
@@ -35,7 +50,9 @@ export default function Project() {
             management
           </p>
         </div>
-        <div className={`${styles.single_project}  ${styles.silde_5}`}>
+
+        {/* IVOTE */}
+        <div className={`${styles.single_project}  ${styles.silde_6}`}>
           <h5>IVOTE</h5>
           <p>
             <span className={styles.para_title}>Domain:</span> Android
@@ -45,7 +62,9 @@ export default function Project() {
             voting app using Java and SQLite
           </p>
         </div>
-        <div className={`${styles.single_project}  ${styles.silde_6}`}>
+
+        {/* L-EASE */}
+        <div className={`${styles.single_project}  ${styles.silde_7}`}>
           <h5>L-EASE</h5>
           <p>
             <span className={styles.para_title}>Domain:</span> Web Application

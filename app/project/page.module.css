@@ -83,6 +83,11 @@
   animation-delay: 5s;
   opacity: 0;
 }
+.silde_7 {
+  animation: sildeRight 1s ease-out forwards;
+  animation-delay: 6s;
+  opacity: 0;
+}
 
 @keyframes sildeLeft {
   from {

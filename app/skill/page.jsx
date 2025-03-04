@@ -5,7 +5,7 @@ export default function Skill() {
   return (
     <div className={styles.container}>
       <div className={styles.skills_container}>
-        <h4 className={`${styles.hi} ${styles.slide_0}`}>HARD SKILLS</h4>
+        {/* <h4 className={`${styles.hi} ${styles.slide_0}`}>HARD SKILLS</h4> */}
         <ul className={styles.ul}>
           <li className={styles.slide_1}>HTML</li>
           <li className={styles.slide_2}>CSS</li>
@@ -14,6 +14,7 @@ export default function Skill() {
           <li className={styles.slide_5}>NEXT JS</li>
           <li className={styles.slide_6}>PHP</li>
           <li className={styles.slide_7}>MYSQL</li>
+          <li className={styles.slide_8}>REACT NATIVE</li>
         </ul>
       </div>
       <div className={styles.image_container}>
@@ -86,6 +87,16 @@ export default function Skill() {
             alt="MYSQL"
           />
           <h4>MYSQL</h4>
+        </div>
+        <div className={styles.png_container}>
+          <Image
+            className={styles.img}
+            src={"/react_native.png"}
+            width={128}
+            height={128}
+            alt="REACT NATIVE"
+          />
+          <h4>REACT NATIVE</h4>
         </div>
       </div>
     </div>
