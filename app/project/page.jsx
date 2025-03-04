@@ -13,7 +13,8 @@ export default function Project() {
           <p>
             <span className={styles.para_title}>Domain:</span> Android App
             <br />
-            <span className={styles.para_title}>Description:</span> Customer app
+            <span className={styles.para_title}>Description:</span> SymBios
+            subscriber app
           </p>
         </div>
 
